@@ -3,7 +3,7 @@ package pokemon;
 import ru.ifmo.se.pokemon.*;
 import move.*;
 
-public class Zangoose extends Pokemon {
+public final class Zangoose extends Pokemon {
     public Zangoose(String name, int level){
         super(name, level);
         setType(Type.NORMAL);

@@ -3,7 +3,7 @@ package pokemon;
 import move.*;
 import ru.ifmo.se.pokemon.*;
 
-public class Togekiss extends Togetic {
+public final class Togekiss extends Togetic {
     public Togekiss(String name, int level){
         super(name, level);
         setType(Type.FAIRY, Type.FLYING);

@@ -3,7 +3,7 @@ package pokemon;
 import move.*;
 import ru.ifmo.se.pokemon.*;
 
-public class Cinccino extends Minccino{
+public final class Cinccino extends Minccino{
     public Cinccino(String name, int level){
         super(name, level);
         setType(Type.NORMAL);
