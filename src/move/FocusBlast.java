@@ -4,7 +4,7 @@ import ru.ifmo.se.pokemon.*;
 
 public final class FocusBlast extends SpecialMove {
     public FocusBlast() {
-        // Специальная атака: Тип Боевой, Мощность 120, Точность 70, Приоретет 0, Использование 1
+        // Специальная атака: Тип Боевой, Мощность 120, Точность 70, Приоритет 0, Использование 1
         super(Type.FIGHTING, 120, 70, 0, 1);
     }
 

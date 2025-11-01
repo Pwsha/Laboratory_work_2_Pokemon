@@ -4,7 +4,7 @@ import ru.ifmo.se.pokemon.*;
 
 public final class Sing extends StatusMove {
     public Sing() {
-        // Статическая атака: Тип Нормальный, Мощность 0, Точность 55, Приоретет 0, Использование 1
+        // Статическая атака: Тип Нормальный, Мощность 0, Точность 55, Приоритет 0, Использование 1
         super(Type.NORMAL, 0, 55, 0, 1);
     }
 
@@ -22,7 +22,7 @@ public final class Sing extends StatusMove {
     }
 
     //метод для случайной генерации использования атаки
-    private static double rand(int min, int max){
+    private static double rand(double min, double max){
         return Math.random() * (max - min) - min;
     }
 }

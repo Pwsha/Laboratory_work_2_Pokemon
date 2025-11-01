@@ -4,7 +4,7 @@ import ru.ifmo.se.pokemon.*;
 
 public final class Swagger extends StatusMove {
     public Swagger() {
-        // Статическая атака: Тип Нормальная, Мощность 0, Точность 85, Приоретет 0, Использование 1
+        // Статическая атака: Тип Нормальная, Мощность 0, Точность 85, Приоритет 0, Использование 1
         super(Type.NORMAL, 0, 85, 0, 1);
     }
 
