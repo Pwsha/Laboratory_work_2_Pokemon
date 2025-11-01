@@ -1,6 +1,7 @@
 package move;
 
-import ru.ifmo.se.pokemon.*;
+import ru.ifmo.se.pokemon.PhysicalMove;
+import ru.ifmo.se.pokemon.Type;
 
 public final class AerialAce extends PhysicalMove {
     public AerialAce() {

@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Main-Class: src.Pokemon_Battle
+Class-Path: lib/Pokemon.jar
+

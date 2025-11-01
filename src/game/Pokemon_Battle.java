@@ -1,5 +1,3 @@
-package game;
-
 import ru.ifmo.se.pokemon.*;
 import pokemon.*;
 

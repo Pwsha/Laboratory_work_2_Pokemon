@@ -10,7 +10,7 @@ public final class Swagger extends StatusMove {
 
     // Запугивает покемона соперника и поднимает его атаку на 2
     @Override
-    protected void applyOppEffects(Pokemon p) {
+    protected void applyOppEffects(Pokemon p){
         Effect.confuse(p);
         p.addEffect(new Effect().stat(Stat.ATTACK,2));
     }
